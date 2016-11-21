@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $('main').slideUp();
-  $('nav').on('click', 'a', function() {
-    $('main').slideDown();
-  });
+    $('main').hide();
+    $('nav').on('click', 'a', function() {
+        $('main').slideDown();
+    });
 });
